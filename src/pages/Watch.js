@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout/Layout';
+import Layout from '../components/Layout/Layout/Layout';
 import VideoDetail from '../components/Layout/VideoDetail/VideoDetail';
 
 const Watch = () => {
