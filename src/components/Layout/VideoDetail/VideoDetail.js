@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from 'react'
 import { useLocation } from 'react-router-dom'
 import { fetchSelecteData } from '../../../apis'
 import { Store } from '../../../store'
-import VideoPlay from '../../../VideoPlay/VideoPlay'
+import VideoPlay from '../../VideoPlay/VideoPlay'
 
 const VideoDetail = () => {
   const { globalState, setGlobalState } = useContext(Store)

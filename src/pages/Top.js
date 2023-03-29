@@ -2,8 +2,8 @@ import React, { useEffect, useContext } from 'react'
 import Layout from '../components/Layout/Layout/Layout';
 import { fetchPopularData } from '../apis/index';
 import { Store } from '../store/index'
-import VideoGrid from '../VideoGrid/VideoGrid';
-import VideoGridItem from '../VideoGridItem/VideoGridItem';
+import VideoGrid from '../components/VideoGrid/VideoGrid';
+import VideoGridItem from '../components/VideoGridItem/VideoGridItem';
 
 function Top() {
   const { globalState, setGlobalState } = useContext(Store);
