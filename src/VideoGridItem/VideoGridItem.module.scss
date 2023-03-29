@@ -1,0 +1,40 @@
+$pc: 960px;
+$sp: 560px;
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+.item {
+  display: block;
+  width: 22.5%;
+  margin: 1rem 1.25%;
+  text-decoration: none;
+
+  @include pc {
+    width: 45%;
+    margin: 1rem 2.5%;
+  }
+
+  @include sp {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    color:white;
+  }
+
+}

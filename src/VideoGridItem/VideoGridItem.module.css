@@ -1,0 +1,24 @@
+.item {
+  display: block;
+  width: 22.5%;
+  margin: 1rem 1.25%;
+  text-decoration: none;
+}
+@media (max-width: 960px) {
+  .item {
+    width: 45%;
+    margin: 1rem 2.5%;
+  }
+}
+@media (max-width: 560px) {
+  .item {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
+.item img {
+  width: 100%;
+}
+.item span {
+  color: white;
+}/*# sourceMappingURL=VideoGriditem.module.css.map */
