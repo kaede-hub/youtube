@@ -6,6 +6,7 @@
   height: 56px;
   width: 100%;
   background-color: black;
+  z-index: 99;
 }
 .header a {
   color: white;
