@@ -1,12 +1,14 @@
 import React from 'react'
-import YouTube from 'react-youtube'
+import Youtube from 'react-youtube'
+import Style from './VideoPlay.module.scss'
 
 const VideoPlay = ({id}) => {
   return (
-    <div>
-      <YouTube videoId={id} />
+    <div className={Style.wrap}>
+      <Youtube className={Style.video} videoId={id} />
     </div>
   )
 }
 
 export default VideoPlay
+

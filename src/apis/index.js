@@ -24,7 +24,7 @@ export const fetchPopularData = async () => {
 }
 
 export const fetchSelecteData = async (id) => {
-  return await youtube.get('video', {
+  return await youtube.get('/videos', {
     params: {
       ...params,
       id

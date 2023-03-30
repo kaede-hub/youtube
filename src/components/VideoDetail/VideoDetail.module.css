@@ -1,0 +1,17 @@
+.wrap {
+  flex-grow: 2;
+  padding: 1rem;
+}
+.wrap p {
+  color: white;
+}
+.wrap pre {
+  color: white;
+  line-height: 1.8rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.wrap a {
+  color: skyblue;
+}/*# sourceMappingURL=VideoDetail.module.css.map */
