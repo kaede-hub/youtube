@@ -3,7 +3,8 @@ import Layout from '../components/Layout/Layout';
 import { useLocation } from 'react-router-dom'
 import { fetchSearchData } from '../apis';
 import { Store } from '../store/index';
-import VideoGridItem from '../components/VideoGridItem/VideoGriditem';
+import VideoGridItem from '../components/VideoGridItem/VideoGridItem';
+import VideoGrid from '../components/VideoGrid/VideoGrid'
 
 const Search = () => {
   const { globalState, setGlobalState } = useContext(Store)
